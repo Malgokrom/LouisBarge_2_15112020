@@ -6,35 +6,251 @@
 		<title>Reservia</title>
 	</head>
 	<body>
-		<!-- En-tête de page -->
+		<!-- Header -->
 		<header>
+			<figure id="logo"><img src="images/logo/Reservia.svg" alt="logo de Reservia" /></figure>
 			<!-- Menu de navigation -->
 			<nav>
-			
+				<ul>
+					<li><a href="#hebergements">Hébergements</a></li>
+					<li><a href="#activites">Activités</a></li>
+					<li><a href="">S'inscrire</a></li>
+				</ul>
 			</nav>
 		</header>
 		
 		<!-- Section de recherche -->
-		<section>
-		
+		<section id="recherche">
+			<h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+			<p>En plein centre ville ou en pleine nature</p>
+			<div>
+				<img src="images/icones/icone_recherche.png" alt="icône de recherche" />
+				<input type="text" id="champ_recherche" />
+				<button id="bouton_recherche">Rechercher</button>
+			</div>
+			<div id="filtres">
+				<div>Filtres</div>
+				<div><img src="images/icones/economique.png" alt="icône économique" /> Économique</div>
+				<div><img src="images/icones/familial.png" alt="icône familial" /> Familial</div>
+				<div><img src="images/icones/romantique.png" alt="icône romantique" /> Romantique</div>
+				<div><img src="images/icones/animaux_autorises.png" alt="icône animaux autorisés" /> Animaux autorisés</div>
+			</div>
+			<p><img src="images/icones/infos.png" alt="icône informations" /> Plus de 500 logements sont disponibles dans cette ville</p>
 		</section>
 		
-		<!-- Section hébergements -->
-		<section>
-			<!-- Informations complémentaires : les plus populaires -->
-			<aside>
+		<!-- Partie principale de la page -->
+		<main>
 			
-			</aside>
-		</section>
+			<!-- Section hébergements -->
+			<section id="hebergements">
+				<div>
+					<h2>Hébergements à Marseille</h2>
+					<div id="liste_hebergements">
+						<article class="element_hebergement">
+							<a href="">
+								<div class="hebergement_image" style="background-image: url('images/hebergements/4_small/auberge_la_cannebiere.jpg');"></div>
+								<p class="hebergement_description">
+									<b>Auberge la Cannebière</b><br />
+									Nuit à partir de 25€<br />
+									<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
+									<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
+									<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
+									<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
+									<img src="images/icones/etoile_grise.png" alt="étoile grise" />
+								</p>
+							</a>
+						</article>
+						<article class="element_hebergement">
+							<a href="">
+								<div class="hebergement_image" style="background-image: url('images/hebergements/4_small/hotel_du_port.jpg');"></div>
+								<p class="hebergement_description">
+									<b>Hôtel du port</b><br />
+									Nuit à partir de 52€<br />
+									<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
+									<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
+									<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
+									<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
+									<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
+								</p>
+							</a>
+						</article>
+						<article class="element_hebergement">
+							<a href="">
+								<div class="hebergement_image" style="background-image: url('images/hebergements/4_small/hotel_les_mouettes.jpg');"></div>
+								<p class="hebergement_description">
+									<b>Hôtel Les mouettes</b><br />
+									Nuit à partir de 76€<br />
+									<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
+									<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
+									<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
+									<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
+									<img src="images/icones/etoile_grise.png" alt="étoile grise" />
+								</p>
+							</a>
+						</article>
+						<article class="element_hebergement">
+							<a href="">
+								<div class="hebergement_image" style="background-image: url('images/hebergements/4_small/hotel_de_la_mer.jpg');"></div>
+								<p class="hebergement_description">
+									<b>Hôtel de la mer</b><br />
+									Nuit à partir de 46€<br />
+									<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
+									<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
+									<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
+									<img src="images/icones/etoile_grise.png" alt="étoile grise" />
+									<img src="images/icones/etoile_grise.png" alt="étoile grise" />
+								</p>
+							</a>
+						</article>
+						<article class="element_hebergement">
+							<a href="">
+								<div class="hebergement_image" style="background-image: url('images/hebergements/4_small/auberge_le_panier.jpg');"></div>
+								<p class="hebergement_description">
+									<b>Auberge Le Panier</b><br />
+									Nuit à partir de 23€<br />
+									<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
+									<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
+									<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
+									<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
+									<img src="images/icones/etoile_grise.png" alt="étoile grise" />
+								</p>
+							</a>
+						</article>
+						<article class="element_hebergement">
+							<a href="">
+								<div class="hebergement_image" style="background-image: url('images/hebergements/4_small/hotel_chez_amina.jpg');"></div>
+								<p class="hebergement_description">
+									<b>Hôtel chez Amina</b><br />
+									Nuit à partir de 96€<br />
+									<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
+									<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
+									<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
+									<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
+									<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
+								</p>
+							</a>
+						</article>
+					</div>
+				</div>
+				
+				<!-- Informations complémentaires : les plus populaires -->
+				<aside>
+					<h2><img src="images/icones/voir_plus.png" alt="Voir plus" />Les plus populaires</h2>
+					<div class="liste_populaires">
+						<article class="element_populaire">
+							<a href="">
+								<div style="background-image: url('images/hebergements/4_small/hotel_le_soleil_du_matin.jpg');"></div>
+								<p>
+									<b>Hôtel Le soleil du matin</b><br />
+									Nuit à partir de 128€<br />
+									<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
+									<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
+									<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
+									<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
+									<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
+								</p>
+							</a>
+						</article>
+						<article class="element_populaire">
+							<a href="">
+								<div style="background-image: url('images/hebergements/4_small/au_coeur_de_l_eau_chambres_d_hotes.jpg');"></div>
+								<p>
+									<b>Au coeur de l'eau Chambres d'hôtes</b><br />
+									Nuit à partir de 71€<br />
+									<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
+									<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
+									<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
+									<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
+									<img src="images/icones/etoile_grise.png" alt="étoile grise" />
+								</p>
+							</a>
+						</article>
+						<article class="element_populaire">
+							<a href="">
+								<div style="background-image: url('images/hebergements/4_small/hotel_tout_bleu_et_blanc.jpg');"></div>
+								<p>
+									<b>Hôtel Tout bleu et Blanc</b><br />
+									Nuit à partir de 68€<br />
+									<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
+									<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
+									<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
+									<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
+									<img src="images/icones/etoile_grise.png" alt="étoile grise" />
+								</p>
+							</a>
+						</article>
+					</div>
+				</aside>
+			</section>
+			
+			<!-- Section activités -->
+			<section id="activites">
+				<h2>Hébergements à Marseille</h2>
+				<div id="liste_activites">
+					<div class="element_activite">
+						<a href="">
+							<div style="background-image: url('images/hebergements/4_small/vieux_port.jpg');"></div>
+							<p>Vieux Port</p>
+						</a>
+					</div>
+					<div class="element_activite">
+						<a href="">
+							<div style="background-image: url('images/hebergements/4_small/fort_de_pomegres.jpg');"></div>
+							<p>Fort de Pomègues</p>
+						</a>
+					</div>
+					<div class="element_activite">
+						<a href="">
+							<div style="background-image: url('images/hebergements/4_small/iles_du_frioul.jpg');"></div>
+							<p>Îles du Frioul</p>
+						</a>
+					</div>
+					<div class="element_activite">
+						<a href="">
+							<div style="background-image: url('images/hebergements/4_small/parc_national_des_calanques.jpg');"></div>
+							<p>Parc National des Calanques</p>
+						</a>
+					</div>
+					<div class="element_activite">
+						<a href="">
+							<div style="background-image: url('images/hebergements/4_small/notre_dame_de_la_garde.jpg');"></div>
+							<p>Notre-Dame-de-la-Garde</p>
+						</a>
+					</div>
+					<div class="element_activite">
+						<a href="">
+							<div style="background-image: url('images/hebergements/4_small/parc_longchamp.jpg');"></div>
+							<p>Parc Longchamp</p>
+						</a>
+					</div>
+				</div>
+			</section>
+		</main>
 		
-		<!-- Section activités -->
-		<section>
-		
-		</section>
-		
-		<!-- footer -->
+		<!-- Footer -->
 		<footer>
-		
+			<div>
+				<h3>A propos</h3>
+				<ul>
+					<li>Fonctionnement du site</li>
+					<li>Conditions générales de vente</li>
+					<li>Données et confidentialité</li>
+				</ul>
+			</div>
+			<div>
+				<h3>Nos hébergements</h3>
+				<ul>
+					<li>Charte qualité</li>
+					<li>Soumettre votre hôtel</li>
+				</ul>
+			</div>
+			<div>
+				<h3>Assistance</h3>
+				<ul>
+					<li>Centre d'aide</li>
+					<li>Nous contacter</li>
+				</ul>
+			</div>
 		</footer>
 	</body>
 </html>
