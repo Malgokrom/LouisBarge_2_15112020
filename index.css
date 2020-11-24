@@ -1,0 +1,52 @@
+/* Mise en page générale */
+body {
+	max-width: 1440px;
+	margin: auto;
+}
+
+ul {
+	padding: 0;
+}
+
+li {
+	list-style-type: none;
+
+}
+
+a {
+	text-decoration: none;
+	color: #000000;
+}
+
+/* Header */
+
+/* Menu de navigation */
+
+/* Section de recherche */
+
+/* Partie principale de la page */
+
+/* Section hébergements */
+
+/* Informations complémentaires : les plus populaires */
+
+/* Section activités */
+
+/* Footer */
+
+/* Media queries */
+@media all and (max-width: 767px) {
+
+}
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+
+}
+
+@media all and (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+@media all and (min-width: 1200px) {
+
+}
