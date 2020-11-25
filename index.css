@@ -19,20 +19,181 @@ a {
 }
 
 /* Header */
+header {
+	background-color: #00FF77;
+	display: flex;
+	justify-content: space-between;
+}
 
 /* Menu de navigation */
+nav ul {
+	display: flex;
+}
+
+nav a {
+	display: block;
+	padding: 25px;
+	border-top: 2px solid rgba(0, 0, 0, 0);
+}
+
+#ancre_heb:hover, #ancre_act:hover {
+	color: #0000FF;
+	border-top: 2px solid #0000FF;
+}
+
+#inscription {
+	color: blue;
+	font-weight: bold;
+}
 
 /* Section de recherche */
+#recherche {
+	background-color: #FF7700;
+}
+
+#champ_recherche {
+	display: flex;
+	height: 51px;
+	margin: 16px 0;
+}
+
+#champ_recherche img {
+	border-radius: 15px 0 0 15px;
+}
+
+#champ_recherche input {
+	background-color: #FFFFFF;
+	font-weight: bold;
+	height: auto;
+	padding: 0 15px;
+	margin: 0;
+	border-top: 1px solid #F2F2F2;
+	border-bottom: 1px solid #F2F2F2;
+	border-left: none;
+	border-right: none;
+}
+
+#champ_recherche button {
+	background-color: #0000FF;
+	color: #FFFFFF;
+	border: none;
+	border-radius: 0 15px 15px 0;
+	padding: 15px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+#filtres {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#liste_filtres {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#liste_filtres div {
+	display: flex;
+	background-color: #FFFFFF;
+	height: 46px;
+	border-top: 2px solid #F2F2F2;
+	border-bottom: 2px solid #F2F2F2;
+	border-right: 2px solid #F2F2F2;
+	border-radius: 25px;
+	margin: 10px;
+}
+
+#liste_filtres div:hover {
+	background-color: #0000FF;
+	color: #FFFFFF;
+	border-top: 2px solid yellow;
+	border-bottom: 2px solid yellow;
+	border-right: 2px solid yellow;
+}
+
+#liste_filtres img {
+	height: 50px;
+	position: relative;
+	bottom: 2px;
+	border-radius: 25px;
+}
+
+#liste_filtres p {
+	font-weight: bold;
+	margin: auto 15px;
+}
+
+#logements_dispo {
+	display: flex;
+	height: 24px;
+}
+
+#logements_dispo img {
+	border: 1px solid #F2F2F2;
+	border-radius: 12px;
+}
+
+#logements_dispo p {
+	margin: auto 10px;
+}
 
 /* Partie principale de la page */
 
 /* Section hébergements */
+#hebergements {
+	background-color: #00FFFF;
+	border-radius: 20px;
+}
+
+#liste_hebergements {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+#liste_hebergements a {
+	display: block;
+	background-color: #FFFFFF;
+	margin: 15px;
+	border-radius: 15px;
+}
+
+#liste_hebergements a:hover {
+	background-color: #FFFF00;
+}
+
+.element_hebergement {
+	width: 236px;
+	border-radius: 15px;
+	padding: 5px;
+}
+
+.element_hebergement p {
+	margin: 0;
+	padding: 8px 0 0 10px;
+	line-height: 140%;
+}
+
+.hebergement_image {
+	height: 114px;
+	border-radius: 10px 10px 0 0;
+	background-size: cover;
+	background-position: center;
+}
 
 /* Informations complémentaires : les plus populaires */
+aside h2 img {
+	float: right;
+}
 
 /* Section activités */
 
 /* Footer */
+footer {
+	background-color: #FFFF00;
+	display: flex;
+}
 
 /* Media queries */
 @media all and (max-width: 767px) {
