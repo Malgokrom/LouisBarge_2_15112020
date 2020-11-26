@@ -155,6 +155,7 @@ nav a {
 #liste_hebergements a {
 	display: block;
 	background-color: #FFFFFF;
+	width: 246px;
 	margin: 15px;
 	border-radius: 15px;
 }
@@ -164,7 +165,6 @@ nav a {
 }
 
 .element_hebergement {
-	width: 236px;
 	border-radius: 15px;
 	padding: 5px;
 }
@@ -183,8 +183,56 @@ nav a {
 }
 
 /* Informations complémentaires : les plus populaires */
+aside {
+	background-color: #00FFFF;
+	border-radius: 20px;
+}
+
 aside h2 img {
 	float: right;
+}
+
+#liste_populaires {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+#liste_populaires a {
+	display: block;
+	background-color: #FFFFFF;
+	width: 350px;
+	margin: 15px;
+	border-radius: 15px;
+}
+
+#liste_populaires a:hover {
+	background-color: #FFFF00;
+}
+
+.element_populaire {
+	display: flex;
+	border-radius: 15px;
+	padding: 5px;
+}
+
+.element_descrip {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding-left: 10px;
+}
+
+.element_descrip p {
+	margin: 8px 0;
+}
+
+.populaire_image {
+	min-height: 120px;
+	min-width: 120px;
+	border-radius: 10px 0 0 10px;
+	background-size: cover;
+	background-position: center;
 }
 
 /* Section activités */
