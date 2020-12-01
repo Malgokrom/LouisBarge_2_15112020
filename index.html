@@ -28,6 +28,7 @@
 			</div>
 			<div id="filtres">
 				<h2>Filtres</h2>
+				<!-- faire une liste -->
 				<div id="liste_filtres">
 					<div><img src="images/icones/economique.png" alt="icône économique" /><p>Économique</p></div>
 					<div><img src="images/icones/familial.png" alt="icône familial" /><p>Familial</p></div>
@@ -35,10 +36,12 @@
 					<div><img src="images/icones/animaux_autorises.png" alt="icône animaux autorisés" /><p>Animaux autorisés</p></div>
 				</div>
 			</div>
+			<!-- enlever le div -->
 			<div id="logements_dispo"><img src="images/icones/infos.png" alt="icône informations" /><p>Plus de 500 logements sont disponibles dans cette ville</p></div>
 		</section>
 		
 		<!-- Partie principale de la page -->
+		<!-- remonter le main pour enlever la div id=hebergements -->
 		<main>
 			
 			<!-- Section hébergements -->
@@ -48,86 +51,112 @@
 					<div id="liste_hebergements">
 						<a href="">
 							<article class="element_hebergement">
+								<!-- mettre une figure -->
 								<div class="hebergement_image" style="background-image: url('images/hebergements/4_small/auberge_la_cannebiere.jpg');"></div>
-								<p class="hebergement_description">
-									<b>Auberge la Cannebière</b><br />
-									Nuit à partir de 25€<br />
-									<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
-									<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
-									<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
-									<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
-									<img src="images/icones/etoile_grise.png" alt="étoile grise" />
-								</p>
+								<div class="element_descrip">
+									<div class="texte_descrip">
+										<p><b>Auberge la Cannebière</b></p>
+										<p>Nuit à partir de 25€</p>
+									</div>
+									<!-- faire une liste -->
+									<div class="notation">
+										<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
+										<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
+										<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
+										<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
+										<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
+									</div>
+								</div>
 							</article>
 						</a>
 						<a href="">
 							<article class="element_hebergement">
 								<div class="hebergement_image" style="background-image: url('images/hebergements/4_small/hotel_du_port.jpg');"></div>
-								<p class="hebergement_description">
-									<b>Hôtel du port</b><br />
-									Nuit à partir de 52€<br />
-									<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
-									<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
-									<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
-									<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
-									<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
-								</p>
+								<div class="element_descrip">
+									<div class="texte_descrip">
+										<p><b>Hôtel du port</b></p>
+										<p>Nuit à partir de 52€</p>
+									</div>
+									<div class="notation">
+										<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
+										<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
+										<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
+										<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
+										<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
+									</div>
+								</div>
 							</article>
 						</a>
 						<a href="">
 							<article class="element_hebergement">
 								<div class="hebergement_image" style="background-image: url('images/hebergements/4_small/hotel_les_mouettes.jpg');"></div>
-								<p class="hebergement_description">
-									<b>Hôtel Les mouettes</b><br />
-									Nuit à partir de 76€<br />
-									<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
-									<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
-									<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
-									<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
-									<img src="images/icones/etoile_grise.png" alt="étoile grise" />
-								</p>
+								<div class="element_descrip">
+									<div class="texte_descrip">
+										<p><b>Hôtel Les mouettes</b></p>
+										<p>Nuit à partir de 76€</p>
+									</div>
+									<div class="notation">
+										<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
+										<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
+										<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
+										<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
+										<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
+									</div>
+								</div>
 							</article>
 						</a>
 						<a href="">
 							<article class="element_hebergement">
 								<div class="hebergement_image" style="background-image: url('images/hebergements/4_small/hotel_de_la_mer.jpg');"></div>
-								<p class="hebergement_description">
-									<b>Hôtel de la mer</b><br />
-									Nuit à partir de 46€<br />
-									<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
-									<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
-									<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
-									<img src="images/icones/etoile_grise.png" alt="étoile grise" />
-									<img src="images/icones/etoile_grise.png" alt="étoile grise" />
-								</p>
+								<div class="element_descrip">
+									<div class="texte_descrip">
+										<p><b>Hôtel de la mer</b></p>
+										<p>Nuit à partir de 46€</p>
+									</div>
+									<div class="notation">
+										<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
+										<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
+										<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
+										<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
+										<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
+									</div>
+								</div>
 							</article>
 						</a>
 						<a href="">
 							<article class="element_hebergement">
 								<div class="hebergement_image" style="background-image: url('images/hebergements/4_small/auberge_le_panier.jpg');"></div>
-								<p class="hebergement_description">
-									<b>Auberge Le Panier</b><br />
-									Nuit à partir de 23€<br />
-									<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
-									<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
-									<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
-									<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
-									<img src="images/icones/etoile_grise.png" alt="étoile grise" />
-								</p>
+								<div class="element_descrip">
+									<div class="texte_descrip">
+										<p><b>Auberge Le Panier</b></p>
+										<p>Nuit à partir de 23€</p>
+									</div>
+									<div class="notation">
+										<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
+										<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
+										<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
+										<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
+										<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
+									</div>
+								</div>
 							</article>
 						</a>
 						<a href="">
 							<article class="element_hebergement">
 								<div class="hebergement_image" style="background-image: url('images/hebergements/4_small/hotel_chez_amina.jpg');"></div>
-								<p class="hebergement_description">
-									<b>Hôtel chez Amina</b><br />
-									Nuit à partir de 96€<br />
-									<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
-									<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
-									<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
-									<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
-									<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
-								</p>
+								<div class="element_descrip">
+									<div class="texte_descrip">
+										<p><b>Hôtel chez Amina</b></p>
+										<p>Nuit à partir de 96€</p>
+									</div>
+									<div class="notation">
+										<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
+										<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
+										<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
+										<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
+										<img src="images/icones/etoile_bleue.png" alt="étoile bleue" />
+									</div>
+								</div>
 							</article>
 						</a>
 					</div>

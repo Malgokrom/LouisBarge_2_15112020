@@ -139,6 +139,16 @@ nav a {
 }
 
 /* Partie principale de la page */
+.element_descrip {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding-left: 10px;
+}
+
+.element_descrip p {
+	margin: 8px 0;
+}
 
 /* Section hébergements */
 #hebergements {
@@ -156,6 +166,7 @@ nav a {
 	display: block;
 	background-color: #FFFFFF;
 	width: 246px;
+	height: 100%;
 	margin: 15px;
 	border-radius: 15px;
 }
@@ -169,12 +180,6 @@ nav a {
 	padding: 5px;
 }
 
-.element_hebergement p {
-	margin: 0;
-	padding: 8px 0 0 10px;
-	line-height: 140%;
-}
-
 .hebergement_image {
 	height: 114px;
 	border-radius: 10px 10px 0 0;
@@ -184,7 +189,7 @@ nav a {
 
 /* Informations complémentaires : les plus populaires */
 aside {
-	background-color: #00FFFF;
+	background-color: #0077FF;
 	border-radius: 20px;
 }
 
@@ -216,17 +221,6 @@ aside h2 img {
 	padding: 5px;
 }
 
-.element_descrip {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	padding-left: 10px;
-}
-
-.element_descrip p {
-	margin: 8px 0;
-}
-
 .populaire_image {
 	min-height: 120px;
 	min-width: 120px;
@@ -236,6 +230,9 @@ aside h2 img {
 }
 
 /* Section activités */
+#activites {
+	background-color: #77FF00;
+}
 
 /* Footer */
 footer {
@@ -243,8 +240,20 @@ footer {
 	display: flex;
 }
 
-/* Media queries */
-@media all and (max-width: 767px) {
+footer div {
+	width: 33%;
+}
+
+/* Media queries 
+ * 
+ * max 576 téléphone faire en sorte que ça soit bien jusqu'a 350px
+ * max 769 tablette
+ * max 992
+ * Mettre uniquement des max-width
+ * 
+ * */
+
+@media (max-width: 767px) {
 
 }
 
