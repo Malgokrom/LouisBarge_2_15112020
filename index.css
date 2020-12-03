@@ -1,5 +1,10 @@
 /* Mise en page générale */
+html {
+	background-color: black;
+}
+
 body {
+	background-color: red;
 	max-width: 1440px;
 	margin: auto;
 }
@@ -16,6 +21,11 @@ li {
 a {
 	text-decoration: none;
 	color: #000000;
+}
+
+header, #recherche, main, #activites {
+	margin-left: 50px;
+	margin-right: 50px;
 }
 
 /* Header */
@@ -191,13 +201,17 @@ main {
 	border-radius: 10px 10px 0 0;
 	background-size: cover;
 	background-position: center;
+	margin: 0;
 }
 
 /* Informations complémentaires : les plus populaires */
 aside {
 	background-color: #0077FF;
 	padding: 20px;
+	margin-left: 30px;
 	border-radius: 20px;
+	display: flex;
+	flex-direction: column;
 }
 
 aside h2 img {
@@ -208,6 +222,7 @@ aside h2 img {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+	flex: 1;
 }
 
 #liste_populaires a {
@@ -229,38 +244,69 @@ aside h2 img {
 }
 
 .populaire_image {
-	min-height: 120px;
+	min-height: 150px;
 	min-width: 120px;
 	border-radius: 10px 0 0 10px;
 	background-size: cover;
 	background-position: center;
+	margin: 0;
 }
 
 /* Section activités */
 #activites {
 	background-color: #77FF00;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+#liste_activites {
 	display: flex;
 	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+	height: 445px;
 }
 
 .element_activite {
-	background-color: #77FF77;
-	display: block;
+	background-color: #FFFFFF;
+	display: flex;
+	flex-direction: column;
 	width: 302px;
 	border-radius: 15px;
 }
 
-.element_activite div {
+.element_activite:nth-child(1) {height: 100%;}
+.element_activite:nth-child(2) {height: 53%;}
+.element_activite:nth-child(3) {height: 37%;}
+.element_activite:nth-child(4) {height: 100%;}
+.element_activite:nth-child(5) {height: 43%;}
+.element_activite:nth-child(6) {height: 47%;}
+
+.element_activite:hover {
+	background-color: #AA0000;
+}
+
+.element_activite figure {
 	background-size: cover;
 	background-position: center;
-	height: 200px;
+	margin: 0;
+	flex: 1;
 	border-radius: 15px 15px 0 0;
+}
+
+.element_activite p {
+	margin: 0;
+	padding: 10px;
+	font-weight: bold;
+	border-radius: 0 0 15px 15px;
 }
 
 /* Footer */
 footer {
 	background-color: #FFFF00;
 	display: flex;
+	padding: 20px 30px;
 }
 
 footer div {
@@ -268,7 +314,7 @@ footer div {
 }
 
 footer li {
-	margin-bottom: 10px;
+	margin-top: 10px;
 }
 
 /* Media queries 
