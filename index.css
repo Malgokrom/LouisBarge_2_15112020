@@ -5,10 +5,6 @@
 	src: url("polices/Raleway/Raleway-VariableFont_wght.ttf");
 }
 
-html {
-	background-color: black;
-}
-
 body {
 	background-color: #FFFFFF;
 	font-family: police_1;
