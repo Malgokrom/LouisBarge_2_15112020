@@ -85,7 +85,7 @@ nav a {
 #champ_recherche div {
 	display: flex;
 	background-color: #F2F2F2;
-	width: 51px;
+	min-width: 51px;
 	height: 51px;
 	border-radius: 15px 0 0 15px;
 	cursor: pointer;
@@ -121,7 +121,7 @@ nav a {
 #icone_loupe {
 	display: none;
 	background-color: #0065FC;
-	width: 50px;
+	min-width: 50px;
 	border: none;
 	border-radius: 15px;
 	padding: 0;
