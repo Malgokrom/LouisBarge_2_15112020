@@ -98,7 +98,9 @@ nav a {
 
 #champ_recherche input {
 	background-color: #FFFFFF;
+	font-size: 1em;
 	font-weight: bold;
+	max-width: 220px;
 	height: auto;
 	padding: 0 15px;
 	margin: 0;
@@ -288,8 +290,15 @@ main {
 	border-radius: 10px 10px 0 0;
 	background-size: cover;
 	background-position: center;
-	margin: 0;
+	margin: 5px 5px 0 5px;
 }
+
+#liste_hebergements a:nth-child(1) .hebergement_image {background-image: url('images/hebergements/4_small/auberge_la_cannebiere.jpg');}
+#liste_hebergements a:nth-child(2) .hebergement_image {background-image: url('images/hebergements/4_small/hotel_du_port.jpg');}
+#liste_hebergements a:nth-child(3) .hebergement_image {background-image: url('images/hebergements/4_small/hotel_les_mouettes.jpg');}
+#liste_hebergements a:nth-child(4) .hebergement_image {background-image: url('images/hebergements/4_small/hotel_de_la_mer.jpg');}
+#liste_hebergements a:nth-child(5) .hebergement_image {background-image: url('images/hebergements/4_small/auberge_le_panier.jpg');}
+#liste_hebergements a:nth-child(6) .hebergement_image {background-image: url('images/hebergements/4_small/hotel_chez_amina.jpg');}
 
 .afficher_plus {
 	margin-left: 20px;
@@ -351,6 +360,10 @@ aside h2 i {
 	margin: 0;
 }
 
+#liste_populaires a:nth-child(1) .populaire_image {background-image: url('images/hebergements/4_small/hotel_le_soleil_du_matin.jpg');}
+#liste_populaires a:nth-child(2) .populaire_image {background-image: url('images/hebergements/4_small/au_coeur_de_l_eau_chambres_d_hotes.jpg');}
+#liste_populaires a:nth-child(3) .populaire_image {background-image: url('images/hebergements/4_small/hotel_tout_bleu_et_blanc.jpg');}
+
 /* Section activités */
 #activites {
 	margin-top: 50px;
@@ -393,6 +406,13 @@ aside h2 i {
 	flex: 1;
 	border-radius: 15px 15px 0 0;
 }
+
+.element_activite:nth-child(1) figure {background-image: url('images/activites/4_small/vieux_port.jpg');}
+.element_activite:nth-child(2) figure {background-image: url('images/activites/4_small/fort_de_pomegues.jpg');}
+.element_activite:nth-child(3) figure {background-image: url('images/activites/4_small/iles_du_frioul.jpg');}
+.element_activite:nth-child(4) figure {background-image: url('images/activites/4_small/parc_national_des_calanques.jpg');}
+.element_activite:nth-child(5) figure {background-image: url('images/activites/4_small/notre_dame_de_la_garde.jpg');}
+.element_activite:nth-child(6) figure {background-image: url('images/activites/4_small/parc_longchamp.jpg');}
 
 .element_activite p {
 	margin: 0;
